@@ -1,0 +1,15 @@
+[project]
+name = "papcorns-node-loadimagefromurl"
+description = "A ComfyUI custom node that allows you to load images directly from URLs or local file paths. This node provides a convenient way to import images into your ComfyUI workflows without manually downloading them first."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["Pillow==9.0.0", "torch>1.9.0", "requests>2.25.0", "numpy>1.21.0"]
+
+[project.urls]
+Repository = "https://github.com/papcorns/ComfyUI-Papcorns-Node-LoadImageFromUrl"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Papcorns-Node-LoadImageFromUrl"
+Icon = ""
